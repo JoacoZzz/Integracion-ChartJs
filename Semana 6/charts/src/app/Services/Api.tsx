@@ -22,3 +22,21 @@ export async function fetchSalarioMaximo(idDepto:number) {
     return response.data.data;
     
 }
+
+export async function fetchProductosPorCategoria() {
+    const response = await axios.get(`${API_URL}/productos-por-categoria`);
+    return response.data.data; 
+
+}
+
+export async function fetchPromedioValorPorCategoria() {
+    const response = await axios.get(`${API_URL}/promedio-valor-por-categoria`);
+    return response.data.data;
+
+}
+
+export async function fetchPromedioValorYTotalPorLine() {
+    const response = await axios.get(`${API_URL}/promedio-valor-por-linecode`);
+    return response.data.data;
+
+}

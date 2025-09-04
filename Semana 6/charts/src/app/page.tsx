@@ -8,8 +8,10 @@ export default function Home() {
 
      <Link href='/graficoBarra'>Ir al grafico de barra/ Salario x Depto</Link> <br />
      <Link href='/graficolineal'>Ir al grafico de Lineal/ Emplaeado x Depto</Link> 
-
      <Link href='/graficodona'>Ir al grafico de Dona/ Salario x Depto</Link> 
+     <Link href='/graficopie' > Ir al grafico de producto x categoria</Link>
+     <Link href='/graficoBarra2' > Ir al grafico de valor promedio producto x categoria</Link>
+     <Link href='/graficoHorizontal' > Ir al grafico de valor promedio producto x linecode</Link>
     </div>
   );
 }
